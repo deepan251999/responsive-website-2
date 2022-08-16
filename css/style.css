@@ -94,11 +94,9 @@ nav{
 }
 .about-item1{
     width: 40%;
-    border:2px solid red;
 }
 .about-item2{
     width: 55%;
-    border: 2px solid red;
 }
 .about-item2 h1{
     font-weight: 500;
@@ -113,3 +111,39 @@ nav{
     line-height: 25px;
     letter-spacing:1px;
 }
+.about-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-flex-item{
+    width: 48%;
+    height: 100px;
+}
+.about-flex-item h2{
+font-size: 36px;
+line-height: 20px;
+font-weight: 700;
+color: #2c4964;
+font-family: "Playfair Display", serif;
+}
+.about-flex-item h2 i{
+    color: #eeafca;
+    padding-right: 10px;
+}
+.about-flex-item span{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    color: #437099;
+    font-weight: 600;
+}
+.about-flex-item p{
+    padding: 0 0 0 45px; 
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #437099;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+/* SKILLS */
